@@ -28,6 +28,7 @@ struct ContentView: View {
                         isClicked.toggle()
                     }
                     score += 1
+                    print("LOG: Score + 1 ")
                 }
             
             Spacer()
